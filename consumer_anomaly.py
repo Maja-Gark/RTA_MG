@@ -28,7 +28,7 @@ try:
         
         count = len(user_windows[user_id])
         if count > 3:
-            print(f"⚠️  ALERT: Wykryto anomalię prędkości!")
+            print(f"   ALERT: Wykryto anomalię prędkości!")
             print(f"   Użytkownik {user_id} wykonał {count} transakcje w ciągu ostatnich 60s.")
             print(f"   Ostatnia transakcja: {tx['tx_id']} | Sklep: {tx['store']} | Kwota: {tx['amount']} PLN")
             print("-" * 50)
